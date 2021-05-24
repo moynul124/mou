@@ -23,7 +23,7 @@ def keluar():
 	
 def acak(x):
     w = 'mhkbpcP'
-    d = '
+    d = 'gg'
      for i in x:
         d += '!'+w[random.randint(0,len(w)-1)]+i
     return cetak(d)
